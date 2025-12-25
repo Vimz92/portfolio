@@ -12,4 +12,10 @@ img{
 }
 
 
+.column {
+  height: 80px;        /* set same height for all images */
+  object-fit: contain;  /* keep aspect ratio */
+  margin: auto;
+  display: block;
+}
 
